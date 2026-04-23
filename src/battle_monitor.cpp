@@ -5,4 +5,5 @@ void BattleMonitor::do_update(void *event)
 {
     UnitEvent *e = static_cast<UnitEvent *>(event);
     std::cout << e->message << std::endl;
+    this->messages.push_back(e->message);
 }
