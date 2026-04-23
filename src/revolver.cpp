@@ -1,6 +1,6 @@
 #include "revolver.hpp"
 
-Revolver::Revolver() : projectile(1)
+Revolver::Revolver() : projectile(1) //changed so revolver does damage
 {
 }
 
